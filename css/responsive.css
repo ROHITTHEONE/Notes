@@ -1,0 +1,103 @@
+/* x-large */
+@media only screen and (min-width: 1191px)  {
+
+}
+
+/* large */
+@media only screen and (max-width: 1190px) {
+
+}
+
+/* medium */
+@media only screen and (max-width: 848px) {
+
+}
+
+/* small */
+@media only screen and (max-width: 501px) {
+  .hamburger {
+    transform: translateX(0);
+    right: 20px;
+  }
+
+  main {
+    text-align: center;
+    padding: 3rem 0 10rem 0;
+  }
+  main span {
+    display: block;
+  }
+
+  .cards{
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+     ' card1 '
+     ' card2 '
+     ' card3 ';
+  }
+
+  .clients {
+    padding: 1rem 0.5rem 0 0;
+    grid-template-columns: 1fr;
+    grid-row-gap: 4rem;
+  }
+
+  .cust {
+    grid-template-columns: 2fr 5fr;
+  }
+
+  .cust img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .say {
+    margin-left: 0.5rem;
+  }
+
+  .card {
+    margin: auto;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .contact {
+    padding: 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  .address {
+    padding-left: 1rem;
+  }
+
+  .company {
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+
+  .company .newsLetter {
+    padding: 0;
+  }
+
+  .company .newsLetter input{
+    min-width: 180px;
+  }
+
+  .pro-info {
+    padding: 3rem 1rem;
+  }
+
+  .c-heading {
+    width: 90%;
+  }
+
+  .m-heading {
+    max-width: 90%;
+    margin: auto;
+  }
+
+}
